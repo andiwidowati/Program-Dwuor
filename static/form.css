@@ -1,0 +1,139 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f5f6;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, rgb(56, 41, 63), #f1a5f1);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.nama {
+    font-size: 17px;
+    color:#d3d0d0;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+}
+.nama h2{
+    color: rgb(143, 153, 153);
+}
+.konten1 {
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(145, 23, 114, 0.1);
+}
+
+.konten1 h2 {
+    font-size: 1.9em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.konten1 p {
+    line-height: 1.0;
+    color: #504c4c;
+    margin-top: 10px;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 90px auto;
+    padding: 50px;
+    background-color: #fdf6f6;
+    box-shadow: 0 0 10px rgba(68, 33, 33, 0.1);
+}
+
+form h2 {
+    text-align:left;
+    margin-bottom: 15px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+section.about {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.about h2 {
+    color: #333;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section.about p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Contact section styles */
+.about h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.konten3 {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.konten3 h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.konten3 p {
+    line-height: 1.6;
+    color: #666;
+    margin-top: 15px;
+}
+footer {
+    background: linear-gradient(to right, rgb(56, 41, 63), #f1a5f1);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
